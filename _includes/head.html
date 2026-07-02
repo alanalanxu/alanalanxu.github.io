@@ -9,14 +9,15 @@
     {%- include google-analytics.html -%}
   {%- endif -%}
 
-  <!-- MathJax 3 -->
-  <script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$', '$$'], ['\\[', '\\]']]
-    }
-  };
+  <!-- MathJax 2: renders the <script type="math/tex"> tags that kramdown's
+       mathjax engine emits from $$...$$ (inline and display) in posts. -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: { inlineMath: [['\\(', '\\)']], displayMath: [['\\[', '\\]']] },
+      TeX: { equationNumbers: { autoNumber: "none" } }
+    });
   </script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  <script async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
 </head>
