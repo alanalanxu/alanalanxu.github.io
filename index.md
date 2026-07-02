@@ -1,8 +1,6 @@
 ---
-layout: default
+layout: home
 title: 我的个人主页
 ---
 
-# 你好，世界！
-
-欢迎来到我的 GitHub Pages 个人网站。
+欢迎来到我的博客！这里会分享一些我的想法和笔记。
