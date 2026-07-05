@@ -1,6 +1,6 @@
 ---
 layout: home
-title: 我的个人主页
+title: My Homepage
 ---
 
-欢迎来到我的博客！这里会分享一些我的想法和笔记。
+Welcome to my blog! Here I'll share some of my thoughts and notes.

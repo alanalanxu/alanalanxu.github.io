@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 关于
+title: About
 permalink: /about/
 ---
 
-这是关于页面。
+This is the about page.
